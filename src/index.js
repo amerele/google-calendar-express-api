@@ -25,7 +25,7 @@ app.post('/create-event', async (req, res) => {
   
     try {
       const response = await calendar.events.insert({
-        calendarId: 'contato.olliemaids@gmail.com',
+        calendarId: 'primary',
         requestBody: request,
       });
   
